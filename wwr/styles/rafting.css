@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+  :root{
+    --primary-color:#9EB7B6;
+    --secondary-color:#84C3C2;
+    --accent1-color:#E0DBD2;
+    --accent2-color:#151010;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    
+    --nav-background-color:#879695;
+    --nav-link-color:rgb(113, 113, 150);
+    --nav-hover-link-color:#84C3C2;
+    --nav-hover-background-color:#9dacab;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 900px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero article {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    bottom: 30%;
+    background-color: var(--secondary-color);
+
+}
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    /* background-color: var(--secondary-color); */
+
+}
+
+.hero article img {
+    float: right;
+    top: 20px;
+    right: 20px;
+    max-width: 20%;
+    max-height: 95%;
+}
+.hero article p {
+    width: 60%;
+}
+footer nav a {
+    float: right;
+}
