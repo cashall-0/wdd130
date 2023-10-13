@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    width: 700px;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0em;
+    background: rgb(239, 237, 237);
+    color: rgb(24, 24, 24);
+}
+
+form {
+    width: 600;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(51, 51, 105);
+    border-radius: 0.5rem;
+    background-color: rgb(138, 138, 149);   
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+legend {
+    padding: 0.5rem;
+    color: rgb(113, 65, 126);
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    padding-left: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: large;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: large;
+    color: rgb(59, 70, 79);
+    border-top: 1px solid rgb(40, 33, 33);
+}
+button {
+    margin: 30px;
+    background-color: rgb(67, 67, 106);
+    color: rgb(27, 17, 36);
+    border: none;
+    width: 200px;
+    border-radius: 20%;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    align-items: center;
+
+}
+button:hover {
+    background-color: rgb(72, 72, 125);
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: large;
+    font-weight: 600;
+}

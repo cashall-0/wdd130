@@ -75,18 +75,16 @@ body {
 
 .hero article {
     position: absolute;
-    left: 2%;
+    left: 15%;
     width: 600px;
-    top: 30%;
-    bottom: 30%;
+    top: 35%;
+    bottom: 35%;
     background-color: var(--secondary-color);
 
 }
 .hero h1 {
     position: absolute;
     top: 20px;
-
-    /* background-color: var(--secondary-color); */
 
 }
 
@@ -100,10 +98,11 @@ body {
 
 .hero article p {
     width: 60%;
+    font-size: larger;
 }
 section h2 {
     margin: auto;
-    
+
 }
 
 #adventure_pic {
