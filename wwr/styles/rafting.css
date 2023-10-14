@@ -60,6 +60,10 @@ nav a {
 
 body {
     max-width: 900px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.0em;
+        background: rgb(239, 237, 237);
+        color: rgb(24, 24, 24);
 }
 
 .hero {
@@ -137,4 +141,77 @@ footer nav p {
     justify-content: center;
     margin-left: 30%;
     margin-right: 10%;
+}
+
+form {
+    width: 600;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(51, 51, 105);
+    border-radius: 0.5rem;
+    background-color: rgb(138, 138, 149);   
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+legend {
+    padding: 0.5rem;
+    color: rgb(113, 65, 126);
+    font-size: 1.3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    padding-left: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: large;
+}
+
+.profile_images {
+    display: flex;
+    margin: 20px;
+}
+.profile_images img {
+    margin: 15px;
+}
+.address {
+    color: #151010;
+    text-align: center;
+}
+
+.about {
+    align-items: center;
+    max-width: 900px;
+}
+
+
+button {
+    margin: 10px;
+    background-color: rgb(67, 67, 106);
+    color: rgb(27, 17, 36);
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 20%;
+    align-items: center;
+
+}
+button:hover {
+    background-color: rgb(72, 72, 125);
+}
+#subscription {
+    float: left;
+    position: absolute;
+    margin: 3px;
+    margin-left: 20px;
+    border: 1px solid blue;
 }
