@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <meta name="description" content="Siyaka Promise Wdd Contact Us page">
+    <title>Contact Us | rafting</title>
+    <meta name="description" content="Siyaka Promise Wdd Contact Us page, dedicated contact information for contacting our comany any time .">
     <meta name="author" content="Siyaka Promise">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -20,7 +20,7 @@
     </header>
     <main class="about">
         <article class="address">
-            <p>dfghjkl ertyiop dfghjkl sdfghjkl</p>
+            <h1>dfghjkl ertyiop dfghjkl sdfghjkl</h1>
             <p>+234 816544567</p>
             <p>siyakapromisea@yahoo.com</p>
             <div>
@@ -40,12 +40,13 @@
                     <input type="text" id="name" name="name">
                     <label for="email">Email: </label>
                     <input type="email"  id="email" name="email">
-                    <label for="purpose">Purpose</label>
-                    <select name="purpose" id="purpose">
-                        <option value="" selected disabled>Choose one...</option>
-                        <option value="general_enquiry">General enquiry</option>
-                        <option value="reservation_question">Reservation question</option>
-                        <option value="website_suggestion">Website suggestion</option>
+                    <strong><p>Purpose</p></strong>
+                        <input type="radio"  id="general_enquiry" name="purpose" value="general_enquiry">
+                        <label for="general_enquiry">General enquiry</label>
+                        <input type="radio"  id="reservation_question" name="purpose" value="reservation_question">
+                        <label for="reservation_question">Reservation question</label>
+                        <input type="radio"  id="website_suggestion" name="purpose" value="website_suggestion">
+                        <label for="website_suggestion">Website suggestion</label>
                     </select>
                     <label for="message">Message</label>
                     <textarea name="message" id="message" placeholder="Enter yourmessage here..." cols="30" rows="10"></textarea>
