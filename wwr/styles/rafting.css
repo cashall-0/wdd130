@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Roboto:ital,wght@0,100;1,300&display=swap');
 
   :root{
-    --primary-color:#9EB7B6;
+    --primary-color:#f1f1f1;
     --secondary-color:#84C3C2;
     --accent1-color:#E0DBD2;
     --accent2-color:#151010;
@@ -10,10 +10,15 @@
     --heading-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
     
-    --nav-background-color:#879695;
+    --nav-background-color:#ffffff;
     --nav-link-color:rgb(113, 113, 150);
     --nav-hover-link-color:#84C3C2;
     --nav-hover-background-color:#9dacab;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -28,7 +33,9 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
+    background-color: rgb(120, 120, 171);
 }
+
 #logo_img {
     margin: 0 0.25rem 0 1rem;
 	width: 64px;
@@ -37,10 +44,12 @@ header {
 
 nav {
     display: flex;
+    color: blue;
 }
 
 nav a {
     text-decoration: none;
+    color: #9dacab;
     /* flex: 1 1 100%; */
 }
 .navigation a:hover {
@@ -60,14 +69,19 @@ nav a {
 
 body {
     max-width: 900px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.0em;
-        background: rgb(239, 237, 237);
-        color: rgb(24, 24, 24);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0em;
+    background: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    justify-content: center;
+    margin: 0 auto;
+
 }
 
 .hero {
     position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .hero img {
@@ -149,7 +163,7 @@ form {
     padding: 10px;
     border: 1px solid rgb(51, 51, 105);
     border-radius: 0.5rem;
-    background-color: rgb(138, 138, 149);   
+    background-color: rgb(192, 192, 202);   
 }
 fieldset {
     display: grid;
@@ -178,10 +192,15 @@ input, select, textarea {
 
 .profile_images {
     display: flex;
-    margin: 20px;
+    margin: auto;
+    max-width: 750px;
+    justify-content: center;
+    
 }
 .profile_images img {
-    margin: 15px;
+    margin: 2px;
+    height: 200px;
+    width: 33%;
 }
 .address {
     color: #151010;
@@ -203,8 +222,8 @@ button {
     height: 30px;
     border-radius: 20%;
     align-items: center;
-
 }
+
 button:hover {
     background-color: rgb(72, 72, 125);
 }
@@ -214,4 +233,62 @@ button:hover {
     margin: 3px;
     margin-left: 20px;
     border: 1px solid blue;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .image-box {
+    text-align: center;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-box p {
+    margin: 10px 0;
+  }
+
+  #orderimg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  #contactform {
+    max-width: 900px;
+    align-items: center;
+
+  }
+ 
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.styled-table th {
+    background-color: #0074cc;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+    background-color: #e0e0e0;
 }
